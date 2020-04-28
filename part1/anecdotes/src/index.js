@@ -3,27 +3,30 @@ import ReactDOM from 'react-dom';
 
 const App = (props) => {
   const [selected, setSelected] = useState(0);
-  const [votes, setVotes] = useState([new Array(anecdotes.length).fill(0)]);
+  const [votes, setVotes] = useState([0, 0, 0, 0, 0, 0]);
 
   const randomAnecdote = () => {
     const rand = Math.floor(Math.random() * numAnecdotes);
     setSelected(rand);
-    console.log(rand);
   };
 
   const incrementPoints = () => {
     const copy = [...votes];
     copy[selected] += 1;
-    console.log(copy);
     setVotes(copy);
   };
 
+  const maxIndex = votes.indexOf(Math.max(...votes));
+
   return (
     <div>
+      <h1>Anecdote of the day</h1>
       {props.anecdotes[selected]}
-    <br />
-    <button onClick={incrementPoints}>vote</button>
-    <button onClick={randomAnecdote}>next anecdote</button>
+      <br />
+      <button onClick={incrementPoints}>vote</button>
+      <button onClick={randomAnecdote}>next anecdote</button>
+      <h1>Anecdote with most votes</h1>
+      {props.anecdotes[maxIndex]}
     </div>
   );
 };
