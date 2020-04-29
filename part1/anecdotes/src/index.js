@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 
 const App = (props) => {
   const [selected, setSelected] = useState(0);
-  const [votes, setVotes] = useState([0, 0, 0, 0, 0, 0]);
+  const [votes, setVotes] = useState(new Array(anecdotes.length).fill(0));
+
+  console.log(votes)
 
   const randomAnecdote = () => {
-    const rand = Math.floor(Math.random() * numAnecdotes);
+    const rand = Math.floor(Math.random() * anecdotes.length);
     setSelected(rand);
   };
 
@@ -30,8 +32,6 @@ const App = (props) => {
     </div>
   );
 };
-
-const numAnecdotes = 6;
 
 const anecdotes = [
   'If it hurts, do it more often',
