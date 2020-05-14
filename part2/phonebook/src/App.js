@@ -9,7 +9,7 @@ const App = () => {
   const [filter, setFilter] = useState('');
 
   const hook = () => {
-    axios.get('http://localhost:3001/persons').then((response) => {
+    axios.get('http://localhost:3002/persons').then((response) => {
       const data = response.data;
       setPersons(data);
     });
