@@ -19,21 +19,30 @@ const PersonForm = (props) => {
   const addNewPerson = (e) => {
     e.preventDefault();
 
-    if (persons.map((i) => i.name).includes(newName)) {
-      alert(`${newName} is already added to phonebook`);
-      return;
-    }
-
     const newPerson = {
       name: newName,
       number: newNumber,
     };
 
-    personService.addPerson(newPerson).then((response) => {
-      setPersons(persons.concat(response));
-      setNewName('');
-      setNewNumber('');
-    });
+    if (persons.map((i) => i.name).includes(newName)) {
+      if (
+        window.confirm(
+          `${newName} is already added to phonebook, replace the old number with a new one?`,
+        )
+      ) {
+        const id = persons.find((i) => i.name === newName).id;
+        personService.replaceNumber(id, newPerson).then((newRecord) => {
+          setPersons(persons.map((i) => (i.id === id ? newRecord : i)));
+        });
+      }
+    } else {
+      personService.addPerson(newPerson).then((response) => {
+        setPersons(persons.concat(response));
+      });
+    }
+
+    setNewName('');
+    setNewNumber('');
   };
 
   return (
