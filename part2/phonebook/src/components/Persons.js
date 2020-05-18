@@ -1,7 +1,7 @@
 import React from 'react';
 import personService from '../services/persons';
 
-const Persons = ({ persons, filter, setPersons }) => {
+const Persons = ({ persons, filter, setPersons, setBanner }) => {
   const deleteRecord = (person) => {
     if (window.confirm(`Delete ${person.name}?`)) {
       personService
