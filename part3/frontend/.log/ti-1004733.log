@@ -1,0 +1,259 @@
+[13:19:27.866] Global cache location '/home/alex/.cache/typescript/3.9', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[13:19:27.866] Processing cache location '/home/alex/.cache/typescript/3.9'
+[13:19:27.866] Trying to find '/home/alex/.cache/typescript/3.9/package.json'...
+[13:19:27.868] Loaded content of '/home/alex/.cache/typescript/3.9/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.494"},"devDependencies":{"@types/abbrev":"^1.1.1","@types/accepts":"^1.3.5","@types/ansi-styles":"^3.2.1","@types/ansicolors":"0.0.33","@types/anymatch":"^1.3.1","@types/argparse":"^1.0.38","@types/asn1":"^0.2.0","@types/async":"^3.2.3","@types/atob":"^2.1.2","@types/babel__core":"^7.1.8","@types/balanced-match":"^1.0.1","@types/base64-js":"^1.3.0","@types/basic-auth":"^1.1.3","@types/bl":"^2.1.0","@types/bluebird":"^3.5.32","@types/body-parser":"^1.19.0","@types/brace-expansion":"^1.1.0","@types/braces":"^3.0.0","@types/bson":"^4.0.2","@types/byline":"^4.2.32","@types/bytes":"^3.1.0","@types/cacheable-request":"^6.0.1","@types/chardet":"^0.8.0","@types/chownr":"^1.0.0","@types/ci-info":"^2.0.0","@types/cli-progress":"^3.7.0","@types/co":"^4.6.2","@types/color-convert":"^1.9.0","@types/color-name":"^1.1.1","@types/concat-map":"0.0.0","@types/configstore":"^4.0.0","@types/content-disposition":"^0.5.3","@types/content-type":"^1.1.3","@types/cookie":"^0.4.0","@types/cookie-signature":"^1.0.3","@types/cors":"^2.8.6","@types/cross-spawn":"^6.0.2","@types/debug":"^4.1.5","@types/decode-uri-component":"^0.2.0","@types/deep-extend":"^0.4.31","@types/denodeify":"^1.2.31","@types/depd":"^1.1.32","@types/destroy":"^1.0.0","@types/duplexer3":"^0.1.0","@types/ee-first":"^1.1.0","@types/encodeurl":"^1.0.0","@types/end-of-stream":"^1.4.0","@types/escape-html":"^1.0.0","@types/eslint":"^6.8.1","@types/esprima":"^4.0.2","@types/etag":"^1.8.0","@types/express":"^4.17.6","@types/fast-levenshtein":"0.0.1","@types/finalhandler":"^1.1.0","@types/follow-redirects":"^1.8.0","@types/forwarded":"^0.1.0","@types/fresh":"^0.5.0","@types/from2":"^2.3.0","@types/fs-extra":"^9.0.1","@types/github-url-to-object":"^4.0.0","@types/glob":"^7.1.2","@types/glob-parent":"^5.1.0","@types/got":"^9.6.11","@types/graceful-fs":"^4.1.3","@types/has-ansi":"^3.0.0","@types/http-cache-semantics":"^4.0.0","@types/http-errors":"^1.6.3","@types/http-proxy":"^1.17.4","@types/imurmurhash":"^0.1.1","@types/inherits":"0.0.30","@types/ini":"^1.3.30","@types/inquirer":"^6.5.0","@types/ip-address":"^5.8.2","@types/is-ci":"^2.0.0","@types/is-glob":"^4.0.1","@types/is-number":"^7.0.0","@types/is-object":"^1.0.1","@types/is-typedarray":"^1.0.0","@types/is-url":"^1.2.28","@types/isarray":"^2.0.0","@types/isexe":"^2.0.0","@types/isomorphic-fetch":"0.0.35","@types/js-yaml":"^3.12.4","@types/jsbn":"^1.2.29","@types/json-buffer":"^3.0.0","@types/json-parse-better-errors":"^1.0.0","@types/jsonfile":"^6.0.0","@types/keyv":"^3.1.1","@types/lodash":"^4.14.155","@types/lodash.defaults":"^4.2.6","@types/lodash.flatten":"^4.4.6","@types/lodash.keyby":"^4.6.6","@types/lodash.sortby":"^4.7.6","@types/lodash.template":"^4.5.0","@types/media-typer":"^1.1.0","@types/memory-pager":"^1.4.0","@types/merge-descriptors":"^1.0.1","@types/methods":"^1.1.1","@types/mime":"^2.0.2","@types/mime-db":"^1.43.0","@types/mime-types":"^2.1.0","@types/minimatch":"^3.0.3","@types/minimist":"^1.2.0","@types/mkdirp":"^1.0.1","@types/mongodb":"^3.5.20","@types/mongoose":"^5.7.24","@types/morgan":"^1.9.0","@types/ms":"^0.7.31","@types/mustache":"^4.0.1","@types/mute-stream":"0.0.0","@types/negotiator":"^0.6.1","@types/nice-try":"^2.0.0","@types/node":"^14.0.3","@types/node-fetch":"^2.5.7","@types/node-forge":"^0.9.4","@types/node-notifier":"^6.0.1","@types/nodemon":"^1.19.0","@types/nopt":"^3.0.29","@types/normalize-path":"^3.0.0","@types/object-assign":"^4.0.30","@types/on-finished":"^2.3.1","@types/on-headers":"^1.0.0","@types/once":"^1.4.0","@types/original":"^1.0.0","@types/os-homedir":"^1.0.0","@types/os-tmpdir":"^1.0.0","@types/osenv":"^0.1.0","@types/parse-json":"^4.0.0","@types/parseurl":"^1.3.1","@types/path-is-absolute":"^1.0.0","@types/phoenix":"^1.4.4","@types/picomatch":"^2.2.1","@types/pify":"^3.0.2","@types/plist":"^3.0.2","@types/prettier":"^2.0.1","@types/proxy-addr":"^2.0.0","@types/psl":"^1.1.0","@types/pump":"^1.1.0","@types/qs":"^6.9.3","@types/querystringify":"^2.0.0","@types/range-parser":"^1.2.3","@types/rc":"^1.1.0","@types/react":"^16.9.35","@types/react-devtools":"^3.6.0","@types/react-native":"^0.62.13","@types/react-native-community__cli":"^2.0.0","@types/react-native-vector-icons":"^6.4.5","@types/react-test-renderer":"^16.9.2","@types/readable-stream":"^2.3.7","@types/redis-errors":"^1.2.0","@types/registry-auth-token":"^3.3.0","@types/requires-port":"^1.0.0","@types/responselike":"^1.0.0","@types/rimraf":"^3.0.0","@types/safer-buffer":"^2.1.0","@types/saslprep":"^1.0.0","@types/semver":"^7.2.0","@types/send":"^0.14.5","@types/serve-static":"^1.13.4","@types/shebang-command":"^1.2.0","@types/shell-escape":"^0.2.0","@types/shell-quote":"^1.6.2","@types/signal-exit":"^3.0.0","@types/sparse-bitfield":"^3.0.0","@types/sprintf":"^0.1.0","@types/sprintf-js":"^1.1.2","@types/ssh2":"^0.5.43","@types/ssh2-streams":"^0.1.7","@types/statuses":"^1.5.0","@types/strftime":"^0.9.2","@types/strict-uri-encode":"^2.0.0","@types/supports-color":"^5.3.0","@types/tar-fs":"^2.0.0","@types/tar-stream":"^2.1.0","@types/temp":"^0.8.34","@types/through":"0.0.30","@types/tmp":"^0.2.0","@types/touch":"^3.1.1","@types/treeify":"^1.0.0","@types/tunnel-ssh":"^4.1.0","@types/type-is":"^1.6.3","@types/ua-parser-js":"^0.7.33","@types/universalify":"^1.0.0","@types/update-notifier":"^4.1.0","@types/urijs":"^1.19.9","@types/url-parse":"^1.4.3","@types/util-deprecate":"^1.0.0","@types/utils-merge":"0.0.28","@types/uuid":"^8.0.0","@types/valid-url":"^1.0.3","@types/validator":"^13.0.0","@types/vary":"^1.1.0","@types/which":"^1.3.2","@types/wrap-ansi":"^3.0.0","@types/write-file-atomic":"^3.0.0","@types/ws":"^7.2.5","@types/xmldom":"^0.1.29","@types/xtend":"^4.0.3"}}
+[13:19:27.868] Loaded content of '/home/alex/.cache/typescript/3.9/package-lock.json'
+[13:19:27.879] Adding entry into typings cache: 'abbrev' => '/home/alex/.cache/typescript/3.9/node_modules/@types/abbrev/index.d.ts'
+[13:19:27.882] Adding entry into typings cache: 'accepts' => '/home/alex/.cache/typescript/3.9/node_modules/@types/accepts/index.d.ts'
+[13:19:27.885] Adding entry into typings cache: 'ansi-styles' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ansi-styles/index.d.ts'
+[13:19:27.888] Adding entry into typings cache: 'ansicolors' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ansicolors/index.d.ts'
+[13:19:27.891] Adding entry into typings cache: 'anymatch' => '/home/alex/.cache/typescript/3.9/node_modules/@types/anymatch/index.d.ts'
+[13:19:27.894] Adding entry into typings cache: 'argparse' => '/home/alex/.cache/typescript/3.9/node_modules/@types/argparse/index.d.ts'
+[13:19:27.897] Adding entry into typings cache: 'asn1' => '/home/alex/.cache/typescript/3.9/node_modules/@types/asn1/index.d.ts'
+[13:19:27.902] Adding entry into typings cache: 'async' => '/home/alex/.cache/typescript/3.9/node_modules/@types/async/index.d.ts'
+[13:19:27.905] Adding entry into typings cache: 'atob' => '/home/alex/.cache/typescript/3.9/node_modules/@types/atob/index.d.ts'
+[13:19:27.908] Adding entry into typings cache: 'babel__core' => '/home/alex/.cache/typescript/3.9/node_modules/@types/babel__core/index.d.ts'
+[13:19:27.911] Adding entry into typings cache: 'balanced-match' => '/home/alex/.cache/typescript/3.9/node_modules/@types/balanced-match/index.d.ts'
+[13:19:27.915] Adding entry into typings cache: 'base64-js' => '/home/alex/.cache/typescript/3.9/node_modules/@types/base64-js/index.d.ts'
+[13:19:27.918] Adding entry into typings cache: 'basic-auth' => '/home/alex/.cache/typescript/3.9/node_modules/@types/basic-auth/index.d.ts'
+[13:19:27.922] Adding entry into typings cache: 'bl' => '/home/alex/.cache/typescript/3.9/node_modules/@types/bl/index.d.ts'
+[13:19:27.925] Adding entry into typings cache: 'bluebird' => '/home/alex/.cache/typescript/3.9/node_modules/@types/bluebird/index.d.ts'
+[13:19:27.928] Adding entry into typings cache: 'body-parser' => '/home/alex/.cache/typescript/3.9/node_modules/@types/body-parser/index.d.ts'
+[13:19:27.930] Adding entry into typings cache: 'brace-expansion' => '/home/alex/.cache/typescript/3.9/node_modules/@types/brace-expansion/index.d.ts'
+[13:19:27.933] Adding entry into typings cache: 'braces' => '/home/alex/.cache/typescript/3.9/node_modules/@types/braces/index.d.ts'
+[13:19:27.935] Adding entry into typings cache: 'bson' => '/home/alex/.cache/typescript/3.9/node_modules/@types/bson/index.d.ts'
+[13:19:27.937] Adding entry into typings cache: 'byline' => '/home/alex/.cache/typescript/3.9/node_modules/@types/byline/index.d.ts'
+[13:19:27.939] Adding entry into typings cache: 'bytes' => '/home/alex/.cache/typescript/3.9/node_modules/@types/bytes/index.d.ts'
+[13:19:27.941] Adding entry into typings cache: 'cacheable-request' => '/home/alex/.cache/typescript/3.9/node_modules/@types/cacheable-request/index.d.ts'
+[13:19:27.943] Adding entry into typings cache: 'chardet' => '/home/alex/.cache/typescript/3.9/node_modules/@types/chardet/index.d.ts'
+[13:19:27.945] Adding entry into typings cache: 'chownr' => '/home/alex/.cache/typescript/3.9/node_modules/@types/chownr/index.d.ts'
+[13:19:27.948] Adding entry into typings cache: 'ci-info' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ci-info/index.d.ts'
+[13:19:27.950] Adding entry into typings cache: 'cli-progress' => '/home/alex/.cache/typescript/3.9/node_modules/@types/cli-progress/index.d.ts'
+[13:19:27.952] Adding entry into typings cache: 'co' => '/home/alex/.cache/typescript/3.9/node_modules/@types/co/index.d.ts'
+[13:19:27.954] Adding entry into typings cache: 'color-convert' => '/home/alex/.cache/typescript/3.9/node_modules/@types/color-convert/index.d.ts'
+[13:19:27.957] Adding entry into typings cache: 'color-name' => '/home/alex/.cache/typescript/3.9/node_modules/@types/color-name/index.d.ts'
+[13:19:27.960] Adding entry into typings cache: 'concat-map' => '/home/alex/.cache/typescript/3.9/node_modules/@types/concat-map/index.d.ts'
+[13:19:27.962] Adding entry into typings cache: 'configstore' => '/home/alex/.cache/typescript/3.9/node_modules/@types/configstore/index.d.ts'
+[13:19:27.964] Adding entry into typings cache: 'content-disposition' => '/home/alex/.cache/typescript/3.9/node_modules/@types/content-disposition/index.d.ts'
+[13:19:27.966] Adding entry into typings cache: 'content-type' => '/home/alex/.cache/typescript/3.9/node_modules/@types/content-type/index.d.ts'
+[13:19:27.968] Adding entry into typings cache: 'cookie' => '/home/alex/.cache/typescript/3.9/node_modules/@types/cookie/index.d.ts'
+[13:19:27.970] Adding entry into typings cache: 'cookie-signature' => '/home/alex/.cache/typescript/3.9/node_modules/@types/cookie-signature/index.d.ts'
+[13:19:27.972] Adding entry into typings cache: 'cors' => '/home/alex/.cache/typescript/3.9/node_modules/@types/cors/index.d.ts'
+[13:19:27.976] Adding entry into typings cache: 'cross-spawn' => '/home/alex/.cache/typescript/3.9/node_modules/@types/cross-spawn/index.d.ts'
+[13:19:27.979] Adding entry into typings cache: 'debug' => '/home/alex/.cache/typescript/3.9/node_modules/@types/debug/index.d.ts'
+[13:19:27.981] Adding entry into typings cache: 'decode-uri-component' => '/home/alex/.cache/typescript/3.9/node_modules/@types/decode-uri-component/index.d.ts'
+[13:19:27.982] Adding entry into typings cache: 'deep-extend' => '/home/alex/.cache/typescript/3.9/node_modules/@types/deep-extend/index.d.ts'
+[13:19:27.986] Adding entry into typings cache: 'denodeify' => '/home/alex/.cache/typescript/3.9/node_modules/@types/denodeify/index.d.ts'
+[13:19:27.988] Adding entry into typings cache: 'depd' => '/home/alex/.cache/typescript/3.9/node_modules/@types/depd/index.d.ts'
+[13:19:27.990] Adding entry into typings cache: 'destroy' => '/home/alex/.cache/typescript/3.9/node_modules/@types/destroy/index.d.ts'
+[13:19:27.993] Adding entry into typings cache: 'duplexer3' => '/home/alex/.cache/typescript/3.9/node_modules/@types/duplexer3/index.d.ts'
+[13:19:27.996] Adding entry into typings cache: 'ee-first' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ee-first/index.d.ts'
+[13:19:27.998] Adding entry into typings cache: 'encodeurl' => '/home/alex/.cache/typescript/3.9/node_modules/@types/encodeurl/index.d.ts'
+[13:19:27.999] Adding entry into typings cache: 'end-of-stream' => '/home/alex/.cache/typescript/3.9/node_modules/@types/end-of-stream/index.d.ts'
+[13:19:28.1] Adding entry into typings cache: 'escape-html' => '/home/alex/.cache/typescript/3.9/node_modules/@types/escape-html/index.d.ts'
+[13:19:28.5] Adding entry into typings cache: 'eslint' => '/home/alex/.cache/typescript/3.9/node_modules/@types/eslint/ts3.1/index.d.ts'
+[13:19:28.7] Adding entry into typings cache: 'esprima' => '/home/alex/.cache/typescript/3.9/node_modules/@types/esprima/index.d.ts'
+[13:19:28.8] Adding entry into typings cache: 'etag' => '/home/alex/.cache/typescript/3.9/node_modules/@types/etag/index.d.ts'
+[13:19:28.9] Adding entry into typings cache: 'express' => '/home/alex/.cache/typescript/3.9/node_modules/@types/express/index.d.ts'
+[13:19:28.11] Adding entry into typings cache: 'fast-levenshtein' => '/home/alex/.cache/typescript/3.9/node_modules/@types/fast-levenshtein/index.d.ts'
+[13:19:28.12] Adding entry into typings cache: 'finalhandler' => '/home/alex/.cache/typescript/3.9/node_modules/@types/finalhandler/index.d.ts'
+[13:19:28.14] Adding entry into typings cache: 'follow-redirects' => '/home/alex/.cache/typescript/3.9/node_modules/@types/follow-redirects/index.d.ts'
+[13:19:28.15] Adding entry into typings cache: 'forwarded' => '/home/alex/.cache/typescript/3.9/node_modules/@types/forwarded/index.d.ts'
+[13:19:28.16] Adding entry into typings cache: 'fresh' => '/home/alex/.cache/typescript/3.9/node_modules/@types/fresh/index.d.ts'
+[13:19:28.18] Adding entry into typings cache: 'from2' => '/home/alex/.cache/typescript/3.9/node_modules/@types/from2/index.d.ts'
+[13:19:28.20] Adding entry into typings cache: 'fs-extra' => '/home/alex/.cache/typescript/3.9/node_modules/@types/fs-extra/index.d.ts'
+[13:19:28.22] Adding entry into typings cache: 'github-url-to-object' => '/home/alex/.cache/typescript/3.9/node_modules/@types/github-url-to-object/index.d.ts'
+[13:19:28.23] Adding entry into typings cache: 'glob' => '/home/alex/.cache/typescript/3.9/node_modules/@types/glob/index.d.ts'
+[13:19:28.25] Adding entry into typings cache: 'glob-parent' => '/home/alex/.cache/typescript/3.9/node_modules/@types/glob-parent/index.d.ts'
+[13:19:28.26] Adding entry into typings cache: 'got' => '/home/alex/.cache/typescript/3.9/node_modules/@types/got/index.d.ts'
+[13:19:28.28] Adding entry into typings cache: 'graceful-fs' => '/home/alex/.cache/typescript/3.9/node_modules/@types/graceful-fs/index.d.ts'
+[13:19:28.29] Adding entry into typings cache: 'has-ansi' => '/home/alex/.cache/typescript/3.9/node_modules/@types/has-ansi/index.d.ts'
+[13:19:28.31] Adding entry into typings cache: 'http-cache-semantics' => '/home/alex/.cache/typescript/3.9/node_modules/@types/http-cache-semantics/index.d.ts'
+[13:19:28.33] Adding entry into typings cache: 'http-errors' => '/home/alex/.cache/typescript/3.9/node_modules/@types/http-errors/index.d.ts'
+[13:19:28.34] Adding entry into typings cache: 'http-proxy' => '/home/alex/.cache/typescript/3.9/node_modules/@types/http-proxy/index.d.ts'
+[13:19:28.37] Adding entry into typings cache: 'imurmurhash' => '/home/alex/.cache/typescript/3.9/node_modules/@types/imurmurhash/index.d.ts'
+[13:19:28.39] Adding entry into typings cache: 'inherits' => '/home/alex/.cache/typescript/3.9/node_modules/@types/inherits/index.d.ts'
+[13:19:28.40] Adding entry into typings cache: 'ini' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ini/index.d.ts'
+[13:19:28.42] Adding entry into typings cache: 'inquirer' => '/home/alex/.cache/typescript/3.9/node_modules/@types/inquirer/index.d.ts'
+[13:19:28.43] Adding entry into typings cache: 'ip-address' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ip-address/index.d.ts'
+[13:19:28.45] Adding entry into typings cache: 'is-ci' => '/home/alex/.cache/typescript/3.9/node_modules/@types/is-ci/index.d.ts'
+[13:19:28.46] Adding entry into typings cache: 'is-glob' => '/home/alex/.cache/typescript/3.9/node_modules/@types/is-glob/index.d.ts'
+[13:19:28.47] Adding entry into typings cache: 'is-number' => '/home/alex/.cache/typescript/3.9/node_modules/@types/is-number/index.d.ts'
+[13:19:28.49] Adding entry into typings cache: 'is-object' => '/home/alex/.cache/typescript/3.9/node_modules/@types/is-object/index.d.ts'
+[13:19:28.50] Adding entry into typings cache: 'is-typedarray' => '/home/alex/.cache/typescript/3.9/node_modules/@types/is-typedarray/index.d.ts'
+[13:19:28.51] Adding entry into typings cache: 'is-url' => '/home/alex/.cache/typescript/3.9/node_modules/@types/is-url/index.d.ts'
+[13:19:28.54] Adding entry into typings cache: 'isarray' => '/home/alex/.cache/typescript/3.9/node_modules/@types/isarray/index.d.ts'
+[13:19:28.56] Adding entry into typings cache: 'isexe' => '/home/alex/.cache/typescript/3.9/node_modules/@types/isexe/index.d.ts'
+[13:19:28.57] Adding entry into typings cache: 'isomorphic-fetch' => '/home/alex/.cache/typescript/3.9/node_modules/@types/isomorphic-fetch/index.d.ts'
+[13:19:28.58] Adding entry into typings cache: 'js-yaml' => '/home/alex/.cache/typescript/3.9/node_modules/@types/js-yaml/index.d.ts'
+[13:19:28.61] Adding entry into typings cache: 'jsbn' => '/home/alex/.cache/typescript/3.9/node_modules/@types/jsbn/index.d.ts'
+[13:19:28.64] Adding entry into typings cache: 'json-buffer' => '/home/alex/.cache/typescript/3.9/node_modules/@types/json-buffer/index.d.ts'
+[13:19:28.66] Adding entry into typings cache: 'json-parse-better-errors' => '/home/alex/.cache/typescript/3.9/node_modules/@types/json-parse-better-errors/index.d.ts'
+[13:19:28.67] Adding entry into typings cache: 'jsonfile' => '/home/alex/.cache/typescript/3.9/node_modules/@types/jsonfile/index.d.ts'
+[13:19:28.68] Adding entry into typings cache: 'keyv' => '/home/alex/.cache/typescript/3.9/node_modules/@types/keyv/index.d.ts'
+[13:19:28.73] Adding entry into typings cache: 'lodash' => '/home/alex/.cache/typescript/3.9/node_modules/@types/lodash/ts3.1/index.d.ts'
+[13:19:28.75] Adding entry into typings cache: 'lodash.defaults' => '/home/alex/.cache/typescript/3.9/node_modules/@types/lodash.defaults/index.d.ts'
+[13:19:28.76] Adding entry into typings cache: 'lodash.flatten' => '/home/alex/.cache/typescript/3.9/node_modules/@types/lodash.flatten/index.d.ts'
+[13:19:28.78] Adding entry into typings cache: 'lodash.keyby' => '/home/alex/.cache/typescript/3.9/node_modules/@types/lodash.keyby/index.d.ts'
+[13:19:28.80] Adding entry into typings cache: 'lodash.sortby' => '/home/alex/.cache/typescript/3.9/node_modules/@types/lodash.sortby/index.d.ts'
+[13:19:28.81] Adding entry into typings cache: 'lodash.template' => '/home/alex/.cache/typescript/3.9/node_modules/@types/lodash.template/index.d.ts'
+[13:19:28.83] Adding entry into typings cache: 'media-typer' => '/home/alex/.cache/typescript/3.9/node_modules/@types/media-typer/index.d.ts'
+[13:19:28.86] Adding entry into typings cache: 'memory-pager' => '/home/alex/.cache/typescript/3.9/node_modules/@types/memory-pager/index.d.ts'
+[13:19:28.90] Adding entry into typings cache: 'merge-descriptors' => '/home/alex/.cache/typescript/3.9/node_modules/@types/merge-descriptors/index.d.ts'
+[13:19:28.92] Adding entry into typings cache: 'methods' => '/home/alex/.cache/typescript/3.9/node_modules/@types/methods/index.d.ts'
+[13:19:28.94] Adding entry into typings cache: 'mime' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mime/index.d.ts'
+[13:19:28.97] Adding entry into typings cache: 'mime-db' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mime-db/index.d.ts'
+[13:19:28.100] Adding entry into typings cache: 'mime-types' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mime-types/index.d.ts'
+[13:19:28.101] Adding entry into typings cache: 'minimatch' => '/home/alex/.cache/typescript/3.9/node_modules/@types/minimatch/index.d.ts'
+[13:19:28.102] Adding entry into typings cache: 'minimist' => '/home/alex/.cache/typescript/3.9/node_modules/@types/minimist/index.d.ts'
+[13:19:28.103] Adding entry into typings cache: 'mkdirp' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mkdirp/index.d.ts'
+[13:19:28.105] Adding entry into typings cache: 'mongodb' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mongodb/index.d.ts'
+[13:19:28.107] Adding entry into typings cache: 'mongoose' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mongoose/index.d.ts'
+[13:19:28.108] Adding entry into typings cache: 'morgan' => '/home/alex/.cache/typescript/3.9/node_modules/@types/morgan/index.d.ts'
+[13:19:28.109] Adding entry into typings cache: 'ms' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ms/index.d.ts'
+[13:19:28.110] Adding entry into typings cache: 'mustache' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mustache/index.d.ts'
+[13:19:28.112] Adding entry into typings cache: 'mute-stream' => '/home/alex/.cache/typescript/3.9/node_modules/@types/mute-stream/index.d.ts'
+[13:19:28.112] Adding entry into typings cache: 'negotiator' => '/home/alex/.cache/typescript/3.9/node_modules/@types/negotiator/index.d.ts'
+[13:19:28.113] Adding entry into typings cache: 'nice-try' => '/home/alex/.cache/typescript/3.9/node_modules/@types/nice-try/index.d.ts'
+[13:19:28.115] Adding entry into typings cache: 'node' => '/home/alex/.cache/typescript/3.9/node_modules/@types/node/ts3.7/index.d.ts'
+[13:19:28.116] Adding entry into typings cache: 'node-fetch' => '/home/alex/.cache/typescript/3.9/node_modules/@types/node-fetch/index.d.ts'
+[13:19:28.117] Adding entry into typings cache: 'node-forge' => '/home/alex/.cache/typescript/3.9/node_modules/@types/node-forge/index.d.ts'
+[13:19:28.118] Adding entry into typings cache: 'node-notifier' => '/home/alex/.cache/typescript/3.9/node_modules/@types/node-notifier/index.d.ts'
+[13:19:28.119] Adding entry into typings cache: 'nodemon' => '/home/alex/.cache/typescript/3.9/node_modules/@types/nodemon/index.d.ts'
+[13:19:28.120] Adding entry into typings cache: 'nopt' => '/home/alex/.cache/typescript/3.9/node_modules/@types/nopt/index.d.ts'
+[13:19:28.121] Adding entry into typings cache: 'normalize-path' => '/home/alex/.cache/typescript/3.9/node_modules/@types/normalize-path/index.d.ts'
+[13:19:28.122] Adding entry into typings cache: 'object-assign' => '/home/alex/.cache/typescript/3.9/node_modules/@types/object-assign/index.d.ts'
+[13:19:28.123] Adding entry into typings cache: 'on-finished' => '/home/alex/.cache/typescript/3.9/node_modules/@types/on-finished/index.d.ts'
+[13:19:28.124] Adding entry into typings cache: 'on-headers' => '/home/alex/.cache/typescript/3.9/node_modules/@types/on-headers/index.d.ts'
+[13:19:28.126] Adding entry into typings cache: 'once' => '/home/alex/.cache/typescript/3.9/node_modules/@types/once/index.d.ts'
+[13:19:28.128] Adding entry into typings cache: 'original' => '/home/alex/.cache/typescript/3.9/node_modules/@types/original/index.d.ts'
+[13:19:28.129] Adding entry into typings cache: 'os-homedir' => '/home/alex/.cache/typescript/3.9/node_modules/@types/os-homedir/index.d.ts'
+[13:19:28.130] Adding entry into typings cache: 'os-tmpdir' => '/home/alex/.cache/typescript/3.9/node_modules/@types/os-tmpdir/index.d.ts'
+[13:19:28.131] Adding entry into typings cache: 'osenv' => '/home/alex/.cache/typescript/3.9/node_modules/@types/osenv/index.d.ts'
+[13:19:28.132] Adding entry into typings cache: 'parse-json' => '/home/alex/.cache/typescript/3.9/node_modules/@types/parse-json/index.d.ts'
+[13:19:28.134] Adding entry into typings cache: 'parseurl' => '/home/alex/.cache/typescript/3.9/node_modules/@types/parseurl/index.d.ts'
+[13:19:28.135] Adding entry into typings cache: 'path-is-absolute' => '/home/alex/.cache/typescript/3.9/node_modules/@types/path-is-absolute/index.d.ts'
+[13:19:28.136] Adding entry into typings cache: 'phoenix' => '/home/alex/.cache/typescript/3.9/node_modules/@types/phoenix/index.d.ts'
+[13:19:28.137] Adding entry into typings cache: 'picomatch' => '/home/alex/.cache/typescript/3.9/node_modules/@types/picomatch/index.d.ts'
+[13:19:28.138] Adding entry into typings cache: 'pify' => '/home/alex/.cache/typescript/3.9/node_modules/@types/pify/index.d.ts'
+[13:19:28.139] Adding entry into typings cache: 'plist' => '/home/alex/.cache/typescript/3.9/node_modules/@types/plist/index.d.ts'
+[13:19:28.140] Adding entry into typings cache: 'prettier' => '/home/alex/.cache/typescript/3.9/node_modules/@types/prettier/index.d.ts'
+[13:19:28.141] Adding entry into typings cache: 'proxy-addr' => '/home/alex/.cache/typescript/3.9/node_modules/@types/proxy-addr/index.d.ts'
+[13:19:28.142] Adding entry into typings cache: 'psl' => '/home/alex/.cache/typescript/3.9/node_modules/@types/psl/index.d.ts'
+[13:19:28.144] Adding entry into typings cache: 'pump' => '/home/alex/.cache/typescript/3.9/node_modules/@types/pump/index.d.ts'
+[13:19:28.145] Adding entry into typings cache: 'qs' => '/home/alex/.cache/typescript/3.9/node_modules/@types/qs/index.d.ts'
+[13:19:28.147] Adding entry into typings cache: 'querystringify' => '/home/alex/.cache/typescript/3.9/node_modules/@types/querystringify/index.d.ts'
+[13:19:28.148] Adding entry into typings cache: 'range-parser' => '/home/alex/.cache/typescript/3.9/node_modules/@types/range-parser/index.d.ts'
+[13:19:28.151] Adding entry into typings cache: 'rc' => '/home/alex/.cache/typescript/3.9/node_modules/@types/rc/index.d.ts'
+[13:19:28.153] Adding entry into typings cache: 'react' => '/home/alex/.cache/typescript/3.9/node_modules/@types/react/index.d.ts'
+[13:19:28.154] Adding entry into typings cache: 'react-devtools' => '/home/alex/.cache/typescript/3.9/node_modules/@types/react-devtools/index.d.ts'
+[13:19:28.157] Adding entry into typings cache: 'react-native' => '/home/alex/.cache/typescript/3.9/node_modules/@types/react-native/index.d.ts'
+[13:19:28.159] Adding entry into typings cache: 'react-native-community__cli' => '/home/alex/.cache/typescript/3.9/node_modules/@types/react-native-community__cli/index.d.ts'
+[13:19:28.160] Adding entry into typings cache: 'react-native-vector-icons' => '/home/alex/.cache/typescript/3.9/node_modules/@types/react-native-vector-icons/index.d.ts'
+[13:19:28.161] Adding entry into typings cache: 'react-test-renderer' => '/home/alex/.cache/typescript/3.9/node_modules/@types/react-test-renderer/index.d.ts'
+[13:19:28.162] Adding entry into typings cache: 'readable-stream' => '/home/alex/.cache/typescript/3.9/node_modules/@types/readable-stream/index.d.ts'
+[13:19:28.163] Adding entry into typings cache: 'redis-errors' => '/home/alex/.cache/typescript/3.9/node_modules/@types/redis-errors/index.d.ts'
+[13:19:28.164] Adding entry into typings cache: 'registry-auth-token' => '/home/alex/.cache/typescript/3.9/node_modules/@types/registry-auth-token/index.d.ts'
+[13:19:28.165] Adding entry into typings cache: 'requires-port' => '/home/alex/.cache/typescript/3.9/node_modules/@types/requires-port/index.d.ts'
+[13:19:28.167] Adding entry into typings cache: 'responselike' => '/home/alex/.cache/typescript/3.9/node_modules/@types/responselike/index.d.ts'
+[13:19:28.168] Adding entry into typings cache: 'rimraf' => '/home/alex/.cache/typescript/3.9/node_modules/@types/rimraf/index.d.ts'
+[13:19:28.169] Adding entry into typings cache: 'safer-buffer' => '/home/alex/.cache/typescript/3.9/node_modules/@types/safer-buffer/index.d.ts'
+[13:19:28.170] Adding entry into typings cache: 'saslprep' => '/home/alex/.cache/typescript/3.9/node_modules/@types/saslprep/index.d.ts'
+[13:19:28.171] Adding entry into typings cache: 'semver' => '/home/alex/.cache/typescript/3.9/node_modules/@types/semver/index.d.ts'
+[13:19:28.172] Adding entry into typings cache: 'send' => '/home/alex/.cache/typescript/3.9/node_modules/@types/send/index.d.ts'
+[13:19:28.174] Adding entry into typings cache: 'serve-static' => '/home/alex/.cache/typescript/3.9/node_modules/@types/serve-static/index.d.ts'
+[13:19:28.175] Adding entry into typings cache: 'shebang-command' => '/home/alex/.cache/typescript/3.9/node_modules/@types/shebang-command/index.d.ts'
+[13:19:28.176] Adding entry into typings cache: 'shell-escape' => '/home/alex/.cache/typescript/3.9/node_modules/@types/shell-escape/index.d.ts'
+[13:19:28.177] Adding entry into typings cache: 'shell-quote' => '/home/alex/.cache/typescript/3.9/node_modules/@types/shell-quote/index.d.ts'
+[13:19:28.178] Adding entry into typings cache: 'signal-exit' => '/home/alex/.cache/typescript/3.9/node_modules/@types/signal-exit/index.d.ts'
+[13:19:28.179] Adding entry into typings cache: 'sparse-bitfield' => '/home/alex/.cache/typescript/3.9/node_modules/@types/sparse-bitfield/index.d.ts'
+[13:19:28.180] Adding entry into typings cache: 'sprintf' => '/home/alex/.cache/typescript/3.9/node_modules/@types/sprintf/index.d.ts'
+[13:19:28.181] Adding entry into typings cache: 'sprintf-js' => '/home/alex/.cache/typescript/3.9/node_modules/@types/sprintf-js/index.d.ts'
+[13:19:28.182] Adding entry into typings cache: 'ssh2' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ssh2/index.d.ts'
+[13:19:28.183] Adding entry into typings cache: 'ssh2-streams' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ssh2-streams/index.d.ts'
+[13:19:28.185] Adding entry into typings cache: 'statuses' => '/home/alex/.cache/typescript/3.9/node_modules/@types/statuses/index.d.ts'
+[13:19:28.186] Adding entry into typings cache: 'strftime' => '/home/alex/.cache/typescript/3.9/node_modules/@types/strftime/index.d.ts'
+[13:19:28.188] Adding entry into typings cache: 'strict-uri-encode' => '/home/alex/.cache/typescript/3.9/node_modules/@types/strict-uri-encode/index.d.ts'
+[13:19:28.189] Adding entry into typings cache: 'supports-color' => '/home/alex/.cache/typescript/3.9/node_modules/@types/supports-color/index.d.ts'
+[13:19:28.190] Adding entry into typings cache: 'tar-fs' => '/home/alex/.cache/typescript/3.9/node_modules/@types/tar-fs/index.d.ts'
+[13:19:28.191] Adding entry into typings cache: 'tar-stream' => '/home/alex/.cache/typescript/3.9/node_modules/@types/tar-stream/index.d.ts'
+[13:19:28.192] Adding entry into typings cache: 'temp' => '/home/alex/.cache/typescript/3.9/node_modules/@types/temp/index.d.ts'
+[13:19:28.194] Adding entry into typings cache: 'through' => '/home/alex/.cache/typescript/3.9/node_modules/@types/through/index.d.ts'
+[13:19:28.195] Adding entry into typings cache: 'tmp' => '/home/alex/.cache/typescript/3.9/node_modules/@types/tmp/index.d.ts'
+[13:19:28.196] Adding entry into typings cache: 'touch' => '/home/alex/.cache/typescript/3.9/node_modules/@types/touch/index.d.ts'
+[13:19:28.197] Adding entry into typings cache: 'treeify' => '/home/alex/.cache/typescript/3.9/node_modules/@types/treeify/index.d.ts'
+[13:19:28.199] Adding entry into typings cache: 'tunnel-ssh' => '/home/alex/.cache/typescript/3.9/node_modules/@types/tunnel-ssh/index.d.ts'
+[13:19:28.200] Adding entry into typings cache: 'type-is' => '/home/alex/.cache/typescript/3.9/node_modules/@types/type-is/index.d.ts'
+[13:19:28.201] Adding entry into typings cache: 'ua-parser-js' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ua-parser-js/index.d.ts'
+[13:19:28.202] Adding entry into typings cache: 'universalify' => '/home/alex/.cache/typescript/3.9/node_modules/@types/universalify/index.d.ts'
+[13:19:28.204] Adding entry into typings cache: 'update-notifier' => '/home/alex/.cache/typescript/3.9/node_modules/@types/update-notifier/index.d.ts'
+[13:19:28.205] Adding entry into typings cache: 'urijs' => '/home/alex/.cache/typescript/3.9/node_modules/@types/urijs/index.d.ts'
+[13:19:28.206] Adding entry into typings cache: 'url-parse' => '/home/alex/.cache/typescript/3.9/node_modules/@types/url-parse/index.d.ts'
+[13:19:28.207] Adding entry into typings cache: 'util-deprecate' => '/home/alex/.cache/typescript/3.9/node_modules/@types/util-deprecate/index.d.ts'
+[13:19:28.208] Adding entry into typings cache: 'utils-merge' => '/home/alex/.cache/typescript/3.9/node_modules/@types/utils-merge/index.d.ts'
+[13:19:28.209] Adding entry into typings cache: 'uuid' => '/home/alex/.cache/typescript/3.9/node_modules/@types/uuid/index.d.ts'
+[13:19:28.210] Adding entry into typings cache: 'valid-url' => '/home/alex/.cache/typescript/3.9/node_modules/@types/valid-url/index.d.ts'
+[13:19:28.211] Adding entry into typings cache: 'validator' => '/home/alex/.cache/typescript/3.9/node_modules/@types/validator/index.d.ts'
+[13:19:28.212] Adding entry into typings cache: 'vary' => '/home/alex/.cache/typescript/3.9/node_modules/@types/vary/index.d.ts'
+[13:19:28.213] Adding entry into typings cache: 'which' => '/home/alex/.cache/typescript/3.9/node_modules/@types/which/index.d.ts'
+[13:19:28.214] Adding entry into typings cache: 'wrap-ansi' => '/home/alex/.cache/typescript/3.9/node_modules/@types/wrap-ansi/index.d.ts'
+[13:19:28.215] Adding entry into typings cache: 'write-file-atomic' => '/home/alex/.cache/typescript/3.9/node_modules/@types/write-file-atomic/index.d.ts'
+[13:19:28.218] Adding entry into typings cache: 'ws' => '/home/alex/.cache/typescript/3.9/node_modules/@types/ws/index.d.ts'
+[13:19:28.219] Adding entry into typings cache: 'xmldom' => '/home/alex/.cache/typescript/3.9/node_modules/@types/xmldom/index.d.ts'
+[13:19:28.221] Adding entry into typings cache: 'xtend' => '/home/alex/.cache/typescript/3.9/node_modules/@types/xtend/index.d.ts'
+[13:19:28.221] Finished processing cache location '/home/alex/.cache/typescript/3.9'
+[13:19:28.222] Process id: 1004765
+[13:19:28.222] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[13:19:28.222] validateDefaultNpmLocation: false
+[13:19:28.222] Npm config file: /home/alex/.cache/typescript/3.9/package.json
+[13:19:28.222] Updating types-registry npm package...
+[13:19:28.222] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[13:19:30.664]     Succeeded. stdout:
+    + types-registry@0.1.494
+    updated 1 package and audited 240 packages in 1.715s
+
+1 package is looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+[13:19:30.664] Updated types-registry npm package
+[13:19:31.845] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/alex/Programming/full-stack-open-part3/frontend/src/services/persons.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/alex/Programming/full-stack-open-part3/frontend/src/services","kind":"discover"}
+[13:19:31.886] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[13:19:31.887] Explicitly included types: []
+[13:19:31.888] Inferred typings from unresolved imports: []
+[13:19:31.888] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules"]}
+[13:19:31.888] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules"]}
+[13:19:31.888] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components
+[13:19:31.905] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules
+[13:19:31.906] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:19:31.906] Response has been sent.
+[13:19:31.906] No new typings were requested as a result of typings discovery
+[13:21:49.245] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/alex/Programming/full-stack-open-part3/frontend/src/services/persons.js","/home/alex/Programming/full-stack-open-part3/frontend/src/components/Persons.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/alex/Programming/full-stack-open-part3/frontend/src/components","kind":"discover"}
+[13:21:49.245] Explicitly included types: []
+[13:21:49.246] Inferred typings from unresolved imports: []
+[13:21:49.246] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules","/home/alex/Programming/full-stack-open-part3/frontend/src/components/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/components/node_modules"]}
+[13:21:49.246] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules","/home/alex/Programming/full-stack-open-part3/frontend/src/components/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/components/node_modules"]}
+[13:21:49.246] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components
+[13:21:49.246] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules
+[13:21:49.246] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/components/bower_components
+[13:21:49.246] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/components/node_modules
+[13:21:49.247] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:21:49.247] Response has been sent.
+[13:21:49.247] No new typings were requested as a result of typings discovery
+[13:31:12.76] Got install request {"projectName":"/dev/null/inferredProject3*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.d.ts","/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/alex/Programming/full-stack-open-part3/frontend/src/services/persons.js","/home/alex/Programming/full-stack-open-part3/frontend/src/components/PersonForm.js"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/alex/Programming/full-stack-open-part3/frontend/src/components","kind":"discover"}
+[13:31:12.76] Explicitly included types: []
+[13:31:12.76] Inferred typings from unresolved imports: []
+[13:31:12.77] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules","/home/alex/Programming/full-stack-open-part3/frontend/src/components/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/components/node_modules"]}
+[13:31:12.77] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules","/home/alex/Programming/full-stack-open-part3/frontend/src/components/bower_components","/home/alex/Programming/full-stack-open-part3/frontend/src/components/node_modules"]}
+[13:31:12.77] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/services/bower_components
+[13:31:12.77] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/services/node_modules
+[13:31:12.77] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/components/bower_components
+[13:31:12.77] DirectoryWatcher:: Added:: WatchInfo: /home/alex/Programming/full-stack-open-part3/frontend/src/components/node_modules
+[13:31:12.77] Sending response:
+    {"projectName":"/dev/null/inferredProject3*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[13:31:12.77] Response has been sent.
+[13:31:12.77] No new typings were requested as a result of typings discovery
