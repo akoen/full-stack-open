@@ -6,7 +6,7 @@ POST http://localhost:3001/api/blogs
 Content-Type: application/json
 
 {
-    "title": "Mr. Fry's Salty Snickers",
+    "title": "Mr. Fry's Salty Snickers 2",
     "author": "Mr. Fry",
     "url": "https://www.scientology.uk",
     "likes": 0
