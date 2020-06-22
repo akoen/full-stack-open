@@ -1,0 +1,13 @@
+# Get blogs
+GET http://localhost:3001/api/blogs
+
+# New blog
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+{
+    "title": "Mr. Fry's Salty Snickers",
+    "author": "Mr. Fry",
+    "url": "https://www.scientology.uk",
+    "likes": 0
+}
